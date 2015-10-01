@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var webpack = require('gulp-webpack');
+var webpack = require('webpack-stream');
 var webpackConfig = require('./webpack.config.js');
 var exec = require('gulp-exec');
 
@@ -9,7 +9,7 @@ gulp.task('install_bower', function(callback){
 });
 
 gulp.task('build', ['install_bower'], function(callback){
-  return gulp.src('')
+  return gulp.src('./src/main/ts/app.ts')
     .pipe(webpack(webpackConfig))
     .pipe(gulp.dest('./build/resources/main/static/js/'));
 });

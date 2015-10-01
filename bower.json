@@ -1,0 +1,19 @@
+{
+  "name": "spring-boot-with-typescript",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jun-1/spring-boot-with-typescript",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "~0.12.16"
+  }
+}

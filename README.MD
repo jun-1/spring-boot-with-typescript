@@ -1,0 +1,1 @@
+GradleでSpring Boot + TypeScript アプリをビルドするサンプルです。

@@ -1,0 +1,28 @@
+{
+  "name": "spring-boot-with-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jun-1/spring-boot-with-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jun-1/spring-boot-with-typescript/issues"
+  },
+  "homepage": "https://github.com/jun-1/spring-boot-with-typescript#readme",
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "gulp": "^3.9.0",
+    "gulp-exec": "^2.1.2",
+    "gulp-webpack": "^1.5.0",
+    "ts-loader": "^0.5.5",
+    "typescript": "^1.6.2",
+    "webpack": "^1.12.2"
+  }
+}

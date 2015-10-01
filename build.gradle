@@ -22,7 +22,7 @@ node {
   download = true
 }
 
-assemble.dependsOn gulp_build
+classes.dependsOn gulp_build
 gulp_build.dependsOn npm_install
 
 task wrapper(type: Wrapper) {
